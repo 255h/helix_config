@@ -1,0 +1,18 @@
+theme = "gruvbox"
+
+[editor]
+auto-pairs = false
+auto-completion = true
+auto-format = true
+bufferline = "always"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.inline-diagnostics]
+cursor-line = "info"
+other-lines = "hint"
+max-wrap = 30
+max-diagnostics = 9
